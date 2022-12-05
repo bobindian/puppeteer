@@ -6,6 +6,7 @@
     "url": "https://github.com/puppeteer/puppeteer"
   },
   "scripts": {
+    "start": "node app.js",
     "bisect": "tsx tools/bisect.ts",
     "build": "npm run build --workspaces --if-present",
     "check:pinned-deps": "tsx tools/ensure-pinned-deps",
